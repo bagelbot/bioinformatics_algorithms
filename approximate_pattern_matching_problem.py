@@ -20,4 +20,4 @@ def approximate_pattern_matching_problem(pattern, genome, d):
     return pos
     
 string =  "".join(open("approximate_match_data.txt")).split()
-approximate_pattern_matching_problem(string[0], string[1], int(string[2]))
+print approximate_pattern_matching_problem(string[0], string[1], int(string[2]))
